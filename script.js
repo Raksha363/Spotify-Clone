@@ -10,12 +10,12 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Euphoria - By Jungkook", filePath: "songs/Euphoria.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Fake Love", filePath: "songs/FAKE LOVE.mp3", coverPath: "covers/2.jpg"},
-    {songName: "I Need U", filePath: "songs/I NEED U.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Airplane Pt.2", filePath: "songs/Airplane pt.2.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Make It Right", filePath: "songs/Make It Right.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Pied Pieper", filePath: "songs/Pied Pieper.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Euphoria - By Jungkook", filePath: "songs/Euphoria.mp3", coverPath: "images/1.jpg"},
+    {songName: "Fake Love", filePath: "songs/FAKE LOVE.mp3", coverPath: "images/2.jpg"},
+    {songName: "I Need U", filePath: "songs/I NEED U.mp3", coverPath: "images/3.jpg"},
+    {songName: "Airplane Pt.2", filePath: "songs/Airplane pt.2.mp3", coverPath: "images/4.jpg"},
+    {songName: "Make It Right", filePath: "songs/Make It Right.mp3", coverPath: "images/5.jpg"},
+    {songName: "Pied Piper", filePath: "songs/Pied Piper.mp3", coverPath: "images/6.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
