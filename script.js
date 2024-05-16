@@ -2,7 +2,7 @@ console.log("Welcome to Spotify");
 
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio('songs/Euphoria.mp3');
+let audioElement = new Audio('songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -10,17 +10,18 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Euphoria - By Jungkook", filePath: "songs/Euphoria.mp3", coverPath: "images/1.jpg"},
-    {songName: "Fake Love", filePath: "songs/FAKE LOVE.mp3", coverPath: "images/2.jpg"},
-    {songName: "I Need U", filePath: "songs/I NEED U.mp3", coverPath: "images/3.jpg"},
-    {songName: "Airplane Pt.2", filePath: "songs/Airplane pt.2.mp3", coverPath: "images/4.jpg"},
-    {songName: "Make It Right", filePath: "songs/Make It Right.mp3", coverPath: "images/5.jpg"},
-    {songName: "Pied Piper", filePath: "songs/Pied Piper.mp3", coverPath: "images/6.jpg"},
+    {songName: "Euphoria - By Jungkook", filePath: "songs/1.mp3", coverPath: "images/1.jpg", timeStamp:"02:39"},
+    {songName: "Fake Love", filePath: "songs/2.mp3", coverPath: "images/2.jpg", timeStamp:"04:02"},
+    {songName: "I Need U", filePath: "songs/3.mp3", coverPath: "images/3.jpg", timeStamp:"03:31"},
+    {songName: "Airplane Pt.2", filePath: "songs/4.mp3", coverPath: "images/4.jpg", timeStamp:"03:38"},
+    {songName: "Make It Right", filePath: "songs/5.mp3", coverPath: "images/5.jpg", timeStamp:"03:46"},
+    {songName: "Pied Piper", filePath: "songs/6.mp3", coverPath: "images/6.jpg", timeStamp:"04:05"},
 ]
 
 songItems.forEach((element, i)=>{ 
     element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
+    element.getElementsByClassName("timestamp")[0].innerHTML = songs[i].timeStamp; 
 })
  
 

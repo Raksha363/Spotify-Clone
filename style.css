@@ -97,11 +97,17 @@ nav ul li{
 }
 
 .timestamp{
-    margin: 0 23px;
+    margin-left: 23px;
+}
+    
+
+.songItemPlay{
+    margin-right: 23px;
 }
 
 .timestamp i{
     cursor: pointer;
+    
 }
 
 .songInfo{
