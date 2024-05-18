@@ -86,7 +86,8 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) =>
                 gif.style.opacity = 1;
             }
             isPlaying = !isPlaying;
-        } else {
+        } 
+        else {
             // If a different song is clicked
             makeAllPlays();
             currentSongIndex = newSongIndex;
@@ -135,3 +136,12 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
 })
+
+
+
+
+
+
+
+
+//https://chatgpt.com/c/941f92ec-c86a-48a6-95a4-cd50a86fe41b

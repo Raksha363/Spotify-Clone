@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-image: url("images/about_bg1.png");
+}
+.about{
+    display:flex;
+    margin-top: 200px;
+    margin-right:900px;
+    padding: 20px;
+    
+    border-radius:20px ;
+    
+    color:yellow;
+    font-size:21px;
+    align-items: center;
+}
