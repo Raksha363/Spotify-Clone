@@ -2,17 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 body{
-    background-image: url("images/about_bg1.png");
+    background-image: url("images/about_bg2.png");
 }
 .about{
     display:flex;
-    margin-top: 200px;
-    margin-right:900px;
+    margin-top:50px;
+    margin-right:500px;
+    margin-left: 200px;
     padding: 20px;
-    
+    border:30px;
+
     border-radius:20px ;
     
-    color:yellow;
+    color:black;
     font-size:21px;
-    align-items: center;
+    
 }
