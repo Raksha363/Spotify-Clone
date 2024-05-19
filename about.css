@@ -7,14 +7,12 @@ body{
 .about{
     display:flex;
     margin-top:400px;
-    
     margin-left: 600px;
     padding: 20px;
     border:30px;
-
     border-radius:20px ;
-    
     color:black;
     font-size:18px;
+    font-family: 'Varela Round', sans-serif;
     
 }
